@@ -1,0 +1,46 @@
+.Eventhead {
+    width: 100%;
+    height: 300px;
+    background: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdCap9rFzT_EJTNKt5y51MJkrHNR6VnilBsnUdOz9yHYWmyEKV) no-repeat center center;
+    background-size:200%;
+    background-size: cover;
+    overflow: hidden; /* Optional: to prevent any content from appearing above the background */
+}
+.Eventhead h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top:40px; 
+}
+.Event {
+    width: 100%;
+  }
+  
+  .Eventhead {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .donation-stats {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .stat {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  p {
+    margin: 5px 0 0 0;
+    font-size: 1rem;
+  }
+  
+ 
+  

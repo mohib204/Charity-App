@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-info p {
+    margin: 0;
+  }
+  
+  .subscribe button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  .social-links img{
+    width: 30px;
+  }
+  
+  .social-links a:hover {
+    color: #ff6600;
+  }
+  
+  .header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .nav-menu li img {
+    max-height: 40px;
+    margin-right: 20px;
+  }
+  
+  .donate-button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

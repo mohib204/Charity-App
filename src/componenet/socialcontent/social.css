@@ -1,0 +1,66 @@
+.social {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social h4 {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .social h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .events {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center cards horizontally */
+    padding: 20px;
+  }
+  
+  .eventcard {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 60%; /* Adjust the width as needed */
+    margin-bottom: 20px; /* Space between cards */
+  }
+  
+  .eveimg {
+    flex: 1; /* Adjusts the image size */
+    max-width: 200px; /* Limit the image width */
+  }
+  
+  .eveimg img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .eventDetails {
+    flex: 2;
+    padding: 16px;
+    text-align: left;
+  }
+  
+  .eveinfo {
+    margin-bottom: 8px;
+  }
+  
+  .eveinfo h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .eveinfo2 p {
+    margin: 4px 0;
+    color: #555;
+  }
+  
